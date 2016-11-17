@@ -1,0 +1,248 @@
+body {
+	font-size: 16px;
+	color: #17202A;
+	background-color: #3C3C3C;
+	font-family: 'Alegreya', serif; 
+}
+
+/**** HEADER ****/
+#header-nav {
+	background-color: #FF6347;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand h1 {
+	/*margin-left: 10px;*/
+	color: #E9E7DA;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	line-height: .75;
+}
+
+button.navbar-toggle {
+	margin: 15px 10px 10px 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#collapsable-nav {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#nav-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+#nav-list li {
+	background-color: #DCC7AA;
+}
+
+#nav-list a{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #3C3C3C;
+	text-decoration: none;
+	padding: auto;
+}
+
+#nav-list li:hover, #nav-list li:focus {
+	background: #C0B3A0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #E9E7DA;
+	text-shadow: 1px 1px 1px #222;
+}
+
+.navbar-header button.navbar-toggle:hover {
+	background: #EDBB99;
+}
+
+/**** BODY ****/
+
+body h2 {
+	color: #E9E7DA;
+	font-weight: bold;
+}
+
+
+#first, #second, #third {
+
+	border: 1px solid white;
+	background-color: #FFC259;
+}
+
+h3 {
+	color: solid black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Lato', sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+p {
+  color: solid black;
+  text-align: justify;
+  font-family: 'Lato', sans-serif;
+}
+
+#chick, #beef, #sushi {
+	padding: 25px;
+}
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  #header-nav .container {
+  	margin-bottom: 0px;
+  }
+
+  .navbar-header {
+  	padding-top: 0px;
+	margin: 0px 10px 20px 10px;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+	margin: 0px 10px 20px 10px;
+}
+
+ body h2 {
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .navbar-header {
+  	padding-top: 0px;
+	margin: 0px 10px 20px 10px;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+	margin: 0px 10px 20px 10px;
+}
+
+  /* End Header */
+
+  /* Home Page */
+  body h2 {
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+.row {
+	padding: 5px 5px 10px 5px;
+}
+
+
+
+#first, #second, #third {
+	margin: 5px 5px 5px 5px;
+}
+
+
+#first #chick, #second #beef, #third #sushi {
+	margin: 5px 5px 5px 5px;
+	padding: 25px;
+}
+
+
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .navbar-header {
+  	padding-top: 0px;
+	margin: 0px 10px 20px 10px;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+	margin: 0px 10px 20px 10px;
+}
+  /* Home Page */
+
+body h2 {
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+.row {
+	
+	padding: 5px 5px 10px 5px;
+
+}
+
+#first, #second, #third {
+	margin: 5px 5px 5px 5px;
+}
+
+#first #chick, #second #beef, #third #sushi {
+	margin: 5px 5px 5px 5px;
+	padding: 25px;
+}
+
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-header {
+  	padding-top: 0px;
+	margin: 0px 10px 20px 10px;
+}
+
+.navbar-brand {
+	padding-top: 0px;
+	margin: 0px 10px 20px 10px;
+}
+  
+#nav-list li {
+	padding: 10px 0px 10px 0px;
+	margin: 0px;
+	margin-bottom:-10px;
+}
+ li > a {
+ 	display: block;
+ }
+  /* End Header */
+
+  /* Home Page */
+
+body h2 {
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+.row {
+	margin: 5px 5px 10px 5px;
+	padding: 5px 5px 10px 5px;
+
+}
+
+#first, #second, #third {
+	margin: 5px 5px 5px 5px;
+}
+
+#first #chick, #second #beef, #third #sushi {
+	margin: 5px 5px 5px 5px;
+	padding: 25px;
+}
+  /*  End Home Page */
+  
+} 
